@@ -1,0 +1,180 @@
+
+.controller{
+    display: flex;
+    padding-top: 50px
+}
+.notifications-div{
+    flex: 1;
+    position: relative;
+    padding-top: 5px;
+
+}
+.point-notifications{
+    background-color:rgba(94, 13, 224, 1);
+    position: absolute;
+    height: 10px;
+    width: 10px;
+    border-radius: 10px;
+    top: 5px;
+    left: 12px;
+
+}
+.notifications-img{
+    height: 25px;
+
+}
+select{
+    box-shadow: 0.5px 0.5px 1px lightgray
+    mar
+}
+.select-div{
+    margin-top: 8px;
+}
+
+
+.second-r{
+    margin-top: 50px;
+    border-bottom: 1px solid rgb(233, 233, 233);
+    padding-bottom: 32px;
+}
+.Premium{
+    color: rgba(94, 13, 224, 0.822);
+}
+.Take{
+    width: 250px;
+    font-weight: 600;
+    font-size: 35px;
+    margin-top: 0;
+}
+.Profesional{
+    color: rgba(128, 128, 128, 0.726);
+    margin-bottom: 30px;
+}
+.Upgrade-button{
+    width: 342px;
+    display: flex;
+    color: rgba(94, 13, 224, 0.822);
+    font-size: 16px;
+    border: 1px solid rgb(233, 233, 233);
+    border-radius: 8px;
+    padding-left: 12px;
+    background-color: white;
+    cursor: pointer;
+    transition: 0.02s;
+}
+.right{
+    margin-left: 50px;
+}
+.Upgrade-button:hover{
+    color: white;
+    background-color: rgba(94, 13, 224, 0.822);
+}
+.Upgrade-button:hover img{
+    filter: invert(1);
+}
+.p-and-i{
+    display: flex;
+}
+.Upgrade{
+    margin-right: 140px;
+}
+.third-r{
+    margin-top: 23px;
+}
+.date{
+    display: flex;
+}
+.October{
+    flex: 1;
+
+}
+.smaller-than,
+.bigger-than{
+    display: flex;
+    align-items: center;
+}
+.smaller-than{
+    margin-right: 10px;
+}
+.smaller-button,
+.bigger-button{
+    border-radius: 20px;
+    border: 1px solid rgb(233, 233, 233);
+    background-color: white;
+    height: 36px;
+    width: 36px;
+    cursor: pointer;
+}
+.bigger-button{
+    color: rgba(94, 13, 224, 0.822);
+}
+
+.fourth-r{
+    margin-top: 8px;
+}
+.calendar{
+    display: flex;
+    justify-content: space-between;
+    height: 100px;
+}
+.day{
+    color: rgba(128, 128, 128, 0.726);
+    position: relative;
+}
+.num{
+    color: black;
+    position: absolute;
+    top: 50px;
+    left: 8px;
+}
+.num-purple{
+    color: white;
+    position: absolute;
+    top: 42px;
+    background-color: rgba(94, 13, 224, 0.822);
+    padding: 8px 9px;
+    border-radius: 60px;
+}
+
+
+.video{
+    display: flex;
+    margin-top: 5px;
+    border-bottom: 1px solid rgb(233, 233, 233);
+    margin-bottom: 0;
+    height: 100px;
+}
+.side-img{
+    width: 80px;
+    border-radius: 100px;
+}
+.Meeting-and-Google{
+    margin-left: 10px;
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+}
+.Meeting{
+    margin-bottom: 0;
+    white-space: 0;
+}
+.img-and-google{
+    display: flex;
+    padding-bottom: 50px;
+}
+.video-img{
+    margin-right: 10px;
+}
+.Google, .pm{
+    color: rgba(128, 128, 128, 0.726);
+}
+.clock-pm{
+    display: flex;
+    margin-left: 15px;
+    align-items: center;
+    margin-top: 10px;
+}
+.clock-img{
+    width: 21px;
+    margin-right: 10px;
+}
